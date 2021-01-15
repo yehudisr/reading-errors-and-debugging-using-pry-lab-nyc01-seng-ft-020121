@@ -8,9 +8,10 @@ def snake_it_up(string)
   10.times {
     s += "s"
   }
-    10 * "s"  + string
-   s + string
    binding.pry
+    10 * "s" + string
+   s + string
+  
   else
     string
   end
